@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Dataset_To_XLSX_Format.props" />
+</Project>

@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Report";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .row {
+        display: inline;
+    }
+
+    .btn {
+        padding: 6px 20px 6px 20px;
+        margin-left: 30px;
+        background-color: aqua;
+        border-radius: 20px;
+        text-align: center;
+    }
+</style>
+<div>
+    <p class="row">Download your file in xls : </p>
+    <a class="btn" type="button" asp-controller="Home" asp-action="DownloadFile_Excel" title="Download Supplier URL"> <i class="fa fa-download font-24" aria-hidden="true"></i> </a>
+    <br />
+    <p class="row">Download your file from html to docx : </p>
+    <a class="btn" type="button" asp-controller="Home" asp-action="DownloadFile_Word" title="Download Supplier URL"> <i class="fa fa-download font-24" aria-hidden="true"></i> </a>
+    <br />
+    <a asp-controller="Home" asp-action="Index1" target="_blank">Click Here to see the Page</a>
+</div>
+

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Dataset_To_XLSX_Format.props" />
+</Project>
